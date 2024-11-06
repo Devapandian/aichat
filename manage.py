@@ -7,7 +7,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 
 # MongoDB connection
-client = MongoClient("mongodb+srv://petonadmin:SwXzR7C5M0xJGXVz@peton.mxpksaa.mongodb.net/?retryWrites=true&w=majority&appName=PetON")  # Adjust the URI if needed
 db = client['PetON']
 collection = db['pet-ai-questions']
 
